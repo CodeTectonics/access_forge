@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-module EasyAuthz
-  class ClosedPolicyRule
+module AccessForge
+  class OpenPolicyRule
     def self.authorized?(_user, _controller, _options)
-      false
+      true
     end
   end
 end

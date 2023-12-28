@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class DummyController
-  include EasyAuthz::ControllerHelpers
+  include AccessForge::ControllerHelpers
 
   def policy_class
     DummyPolicy

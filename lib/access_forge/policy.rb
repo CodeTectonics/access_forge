@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module EasyAuthz
+module AccessForge
   class Policy
     def initialize(user, controller)
       @user = user

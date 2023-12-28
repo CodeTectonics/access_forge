@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module EasyAuthz
+module AccessForge
   module ControllerHelpers
     def authorize_user!
       policy = policy_class.new(current_user, self)

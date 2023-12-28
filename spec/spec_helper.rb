@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require "easy_authz"
+require "access_forge"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

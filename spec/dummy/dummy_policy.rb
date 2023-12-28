@@ -1,4 +1,4 @@
 # frozen_string_literal: true
 
-class DummyPolicy < EasyAuthz::Policy
+class DummyPolicy < AccessForge::Policy
 end

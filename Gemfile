@@ -2,5 +2,5 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in easy_authz.gemspec
+# Specify your gem's dependencies in access_forge.gemspec
 gemspec

@@ -1,16 +1,16 @@
 # frozen_string_literal: true
 
-require_relative "lib/easy_authz/version"
+require_relative "lib/access_forge/version"
 
 Gem::Specification.new do |s|
-  s.name = "easy_authz"
-  s.version = EasyAuthz::VERSION
+  s.name = "access_forge"
+  s.version = AccessForge::VERSION
   s.authors = ["Mark Harbison"]
   s.email = ["mark@tyne-solutions.com"]
 
   s.summary = "A simple, extendable authorization framework for Ruby on Rails applications."
   s.description = "A simple, extendable authorization framework for Ruby on Rails applications."
-  s.homepage = "https://github.com/CodeTectonics/easy_authz"
+  s.homepage = "https://github.com/CodeTectonics/access_forge"
   s.license = "MIT"
   s.required_ruby_version = ">= 2.6.0"
 
